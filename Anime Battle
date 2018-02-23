@@ -71,9 +71,11 @@ void draw(){
 
 void pInicio(){
   background(0);
-  textSize(150);
+  textSize(120);
   fill(255);
-  text("Anime Battle",100,300);
+  text("Anime Battle",200,300);
+  textSize(90);
+  text("Jugador 1 F Jugador 2 J ",100,450);
   textSize(70);
   text("Haz Clic",450,600);
   if (mousePressed == true){
